@@ -2,7 +2,7 @@
 
 **Laradeploy** offers you to automate deployment using a GitHub webhook.
 
-Make a **git push** to GitHub deploy the new modifications to a remote server.
+Simple and fast just make a **git push** to GitHub deploy the new modifications to a remote server.
 
 You can configure which branch this package pulls from.
 
