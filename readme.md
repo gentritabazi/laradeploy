@@ -18,7 +18,7 @@ That URL triggers the execution of a deployment shell script.
 First, install package via composer:
 
 ```bash
-composer require gentritabazi01/laradeploy
+composer require gentritabazi/laradeploy
 ```
 
 Copy config **laradeploy.php** file:
