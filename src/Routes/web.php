@@ -1,3 +1,6 @@
 <?php
 
-Route::post('/deploy', 'GentritAbazi\Laradeploy\Controllers\LaradeployController@deploy');
+use Illuminate\Support\Facades\Route;
+use GentritAbazi\Laradeploy\Controllers\LaradeployController;
+
+Route::post('/deploy', [LaradeployController::class, 'deploy']);
