@@ -29,5 +29,7 @@ class LaradeployServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__. '/../Config/laradeploy.php' => config_path('laradeploy.php'),
         ]);
+
+        $this->loadRoutesFrom(__DIR__. '/../Routes/web.php');
     }
 }
