@@ -12,10 +12,7 @@
     "autoload": {
         "psr-4": {
             "GentritAbazi\\laradeploy\\": "src/"
-        },
-        "files" : [
-            "src/Helpers/All.php"
-        ]
+        }
     },
     "require": {
         "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0"
