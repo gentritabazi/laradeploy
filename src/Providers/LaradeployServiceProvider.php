@@ -14,7 +14,7 @@ class LaradeployServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__. '../../Config/Laradeploy.php',
+            __DIR__. '../../Config/laradeploy.php',
             'laradeploy'
         );
     }
